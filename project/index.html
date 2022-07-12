@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="free web tutorials">
+  <meta name="keywords" contents="HTML,CSS,Javascript">
+  <meta name="author" contents="John Doe">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .background{
+      background-color: black;
+      color:antiquewhite;
+    }
+  </style>
+  <title>codeSTACK</title>
+</head>
+<body>
+  <!--Headings-->
+  <h1>Hello World</h1>
+  <h2>Hello World</h2>
+  <h3>Hello World</h3>
+  <h4>Hello World</h4>
+  <h5>Hello World</h5>
+  <h6>Hello World</h6>
+
+<hr/>
+  
+  <!-- Paragraphs -->
+<div>
+   <p title="This is a tool tip">Lorem ipsum dolor sit <strong>amet</strong> consectetur <em>adipisicing</em> elit. Optio consequuntur tenetur doloremque recusandae dicta vero libero quidem expedita, facere ullam corporis vel aliquam iste modi quibusdam impedit perspiciatis ab mollitia!</p>
+   <p>Lorem ipsum dolor sit amet <mark>consequunter</mark> adipisicing elit. Optio consequuntur tenetur doloremque  <small>recusandae</small> dicta vero libero quidem expedita, <span style="color:blue">facere</span> ullam corporis vel aliquam iste<del>modi</del> quibusdam impedit perspiciatis ab mollitia!</p>
+   <p class="background">Lorem ipsum dolor sit <ins>consecutur</ins> adipisicing elit. Optio consequuntur tenetur doloremque recusandae dicta vero libero quidem expedita, facere <sub>ullam</sub>corporis vel aliquam iste <sup>modi</sup> quibusdam impedit perspiciatis ab mollitia!</p>
+  </div>
+
+  <!-- Image and Bookmark -->
+  <a href="#bookmark">
+  <img src="mochi.gif" alt="alternate description here" width="150">
+  </a>
+
+  <br/>
+  
+  
+   <!-- List Examples -->
+  <ol type="1" start="25">
+    <li>List item 1</li>
+     <ul>
+      <li>sub bullet 1</li>
+      <li>sub bullet 2</li>
+    </ul>
+    <li>List item 2</li>
+    <li>List item 3</li>
+    <li>List item 4</li>
+    <li>List item 5</li>
+  </0l>
+
+   <!-- Table Examples -->
+  <table>
+  </br></br>
+    <caption>This is a caption</caption>
+    <thead>
+      <tr>
+        <th>First name</th>
+        <th>Last name</th>
+        <th>Age</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+        <td>Jill</td>
+        <td>Smith</td>
+        <td>25</td>
+      </tr>
+      <tr>
+        <td>Eve</td>
+        <td>Jackson</td>
+        <td>35</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th colspan="2">Telephone</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Jill Smith</td>
+        <td>555.555.5555</td>
+        <td>777.777.7777</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table>
+    <tr>
+      <th>Name</th>
+      <td>Jill Smith</td>
+    </tr>
+    <tr>
+      <th rowspan="2">Telephone</th>
+      <td>555.555.5555</td>
+    </tr>
+    <tr>
+      <td>777.777.7777</td>
+    </tr>
+  </table>
+
+  </br>
+  </hr>
+  </br>
+
+    <!-- Form Example -->
+  <form action="server.php">
+    <fieldset>
+      <legend>Personal information:</legend>
+      First name:</br>
+      <input type="text" name="firstname" value="" placeholder="First Name Here"></br>
+      Last Name:</br>
+      <input type="text" name="Lastname" value=""></br>
+      <input type="radio" name="options"> option 1
+      <input type="radio" name="options"> option 2</br>
+      <input type="checkbox" name="checkboxes" checked> checkbox 1
+      <input type="checkbox" name="checkboxes"> checkbox 2
+      <input type="checkbox" name="checkboxes"> checkbox 3</br>
+      <label for="carselect">select</label>
+      <select name="cars" id="carselect" multiple>
+        <option value="BMW" selected>BMW</option>
+        <option value="Volvo">Volvo</option>
+        <option value="Audi">Audi</option>
+      </select>
+    </br></br>
+      <input type="submit" value="submit">
+    </fieldset>
+  </form>
+
+   <!-- Button -->
+  <button>click me</button>
+   <!-- Bookmark Paragraph -->
+  <p id="bookmark">this is a paragraph</p>
+</br>
+</br>
+</body>
+</html>
